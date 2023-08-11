@@ -1,8 +1,9 @@
-#include <stdio.h>
+i#include <stdio.h>
 
 /**
  *prints all possible combinations of single-digit numbers
- * main - Prints numbers between 0 to 9 with commas and spaces.
+ * main -func
+ * descrption:Prints numbers between 0 to 9 with commas and spaces.
  *
  * Return: Always 0 (Success)
  */
