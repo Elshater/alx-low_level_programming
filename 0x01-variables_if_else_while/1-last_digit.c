@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include<stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - chech if  greater than 5, is less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
 	int n,l;
@@ -14,7 +19,7 @@ int main(void)
 	if(l>5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n",n,l);
-	}else if(l<5)
+	}else if(l<6 && l!=0)
 	{
 		printf("Last digit of %d is %d and is less than 5\n",n,l);
 	}else
