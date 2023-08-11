@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *prints all possible combinations of single-digit numbers
- * main - Prints numbers between 0 to 9 with commas and spaces.
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Return: alway returns 0
+ *
  */
 int main(void)
 {
