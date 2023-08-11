@@ -2,8 +2,8 @@
 
 /**
  *prints all possible combinations of single-digit numbers
- * main -func
- * descrption:Prints numbers between 0 to 9 with commas and spaces.
+ * main -Entry point
+ * Descrption:'Prints numbers between 0 to 9 with commas and spaces.'
  *
  * Return: Always 0 (Success)
  */
