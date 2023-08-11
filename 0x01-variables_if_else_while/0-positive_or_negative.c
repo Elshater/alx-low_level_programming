@@ -4,7 +4,7 @@
 
 
 /**
-  *main - print whether the number stored in the variable n is positive or negative.
+  *main - check if number is positive ,negative or zero.
   *
   *Return: Always 0 (success)
   *
