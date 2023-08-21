@@ -6,17 +6,13 @@
  * Return: no return.
  */
 
-
 void print_rev(char *s)
 {
 	int i;
 
-	int length = _strlen(s) - 1;
-
-
-	for (i = length; i >= 0 ; i--)
+	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
-
