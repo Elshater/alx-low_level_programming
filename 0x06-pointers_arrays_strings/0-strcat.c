@@ -10,22 +10,20 @@
  * Return: char value
  */
 
-
 char *_strcat(char *dest, char *src)
 {
-	int length, i;
+	int i;
+	int j;
 
-	while (dest[length] != '\0')
+	for (j = 0; dest[j] != '\0'; j++)
+	{}
+
+	for (i = 0; src[i] != '\0'; i++)
 	{
-		length++
+		dest[j + i] = src[i];
 	}
+	dest[j + i] = '\0';
 
-
-	for (i = 0; i < dest[length]; ++i)
-	{
-		dest[length + i] = src[i];
-	}
-	dest[length + i] = '\0';
 	return (dest);
-}
 
+}
