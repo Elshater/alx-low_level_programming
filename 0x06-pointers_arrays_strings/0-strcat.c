@@ -1,14 +1,6 @@
 #include"stdio.h";
 
 /**
- * _strcat - concats two strings
- *
- * @dest: destination of concat
- * @src: source array to concat
- *
- * Return: char value
- */
-/**
  * _strcat - concatenates two strings,
  * @dest: destination.
  * @src: source.
