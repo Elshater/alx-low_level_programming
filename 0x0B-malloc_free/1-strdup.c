@@ -8,7 +8,7 @@
  */
 char *_strdup(char *str)
 {
-	ch *strout;
+	char *strout;
 	int i, j;
 
 	while (str[i] != '\0')
