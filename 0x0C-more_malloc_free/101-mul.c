@@ -1,5 +1,5 @@
 #include"main.h"
-#include<stdio.h>
+
 
 
 
@@ -17,7 +17,7 @@ void _puts(char *str)
 
 	while (str[i])
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
 }
@@ -70,7 +70,7 @@ void print_int(unsigned long int n)
 	for (; divisor >= 1; n %= divisor, divisor /= 10)
 	{
 		res = n / divisor;
-		putchar('0' + res);
+		_putchar('0' + res);
 	}
 }
 
@@ -80,7 +80,7 @@ void print_int(unsigned long int n)
 /**
  * main - priunt the multiply result
  * @argc: int
- * argv: list
+ * @argv: list
  * Return 0
  */
 
